@@ -2,12 +2,12 @@ package com.WET.whateattoday;
 
 public class Food {
 
-    public Food(String name, int category1, int category2, int howManyPeople, int howManyHungry, int image) {
+    public Food(String name, int category1, int category2, int howMuch, int hot, int image) {
         this.name = name;
         this.category[category1] = true;
         this.category[category2] = true;
-        this.howManyPeople = howManyPeople;
-        this.howManyHungry = howManyHungry;
+        this.howMuch = howMuch;
+        this.hot = hot;
         this.image = image;
     }
 
@@ -29,11 +29,13 @@ public class Food {
 //    11 = 자투리
     boolean[] category = new boolean[12];
 
-//    몇명이 먹는지
-    int howManyPeople;
+//    비용이 얼마인지
+    int howMuch;
 
-//    허기진 정도
-    int howManyHungry;
+//    매운음식인지
+//    1 = 안매운 음식
+//    2 = 매운 음식
+    int hot;
 
 //    이미지
     int image;
