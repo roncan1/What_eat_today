@@ -4,8 +4,8 @@ public class Food {
 
     public Food(String name, int category1, int category2, int howMuch, int hot, int image) {
         this.name = name;
-        this.category[category1] = true;
-        this.category[category2] = true;
+        this.category[0] = category1;
+        this.category[1] = category2;
         this.howMuch = howMuch;
         this.hot = hot;
         this.image = image;
@@ -27,9 +27,14 @@ public class Food {
 //    9 = 카페음료
 //    10 = 분식
 //    11 = 자투리
-    boolean[] category = new boolean[12];
+    int[] category = new int[2];
 
 //    비용이 얼마인지
+//    0 = ~5000
+//    1 = ~10000
+//    2 = ~15000
+//    3 = ~20000
+//    4 = 20000+
     int howMuch;
 
 //    매운음식인지
