@@ -11,7 +11,15 @@ public class Food {
         this.image = image;
     }
 
-//    음식 이름
+    public String getName() {
+        return name;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    //    음식 이름
     String name;
 
 //    음식 카테고리

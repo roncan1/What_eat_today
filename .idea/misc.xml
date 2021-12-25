@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/What_eat_today/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/What_eat_today/app/src/main/res/drawable/shape_squar.xml" value="0.24351851851851852" />
+        <entry key="..\:/AndroidStudioProjects/What_eat_today/app/src/main/res/layout/activity_main.xml" value="0.22519780888618382" />
+        <entry key="..\:/AndroidStudioProjects/What_eat_today/app/src/main/res/layout/activity_option.xml" value="0.33" />
       </map>
     </option>
   </component>

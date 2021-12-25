@@ -41,7 +41,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="230dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:padding="15dp">
@@ -95,6 +95,67 @@
                     android:background="#00ffffff"
                     android:scaleType="fitXY"
                     android:src="@drawable/btn_bread" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+                        <ImageButton
+                            android:id="@+id/btn_ko"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ffffff"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/btn_ko"
+                            android:paddingRight="7dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_ja"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ffffff"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/btn_ja"
+                            android:paddingLeft="7dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingTop="7dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_ch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ffffff"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/btn_ch"
+                            android:paddingRight="7dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_we"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ffffff"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/btn_we"
+                            android:paddingLeft="7dp"/>
+                    </LinearLayout>
             </LinearLayout>
 
             <LinearLayout

@@ -1,12 +1,42 @@
 package com.WET.whateattoday;
 
-public class FoodManager {
+import java.util.ArrayList;
+import java.util.Random;
 
+public class FoodManager {
     Food[] food = new Food[183];
 
 
     public FoodManager() {
+        setFood();
 
+    }
+
+
+
+    Food choiceFood(ArrayList nowFood) {
+        int nowLength = nowFood.size();
+        Random random = new Random();
+        int resultNum = random.nextInt(nowLength);
+
+        return (Food) nowFood.get(resultNum);
+    }
+
+//    음식 카테고리 분류
+    ArrayList divisionFood(int cate, int hot, int price) {
+        ArrayList<Food> nowFood = new ArrayList<Food>();
+//        전체 음식배열
+        for (int i = 0; i < food.length; i++) {
+//            카테고리 2개
+            for (int j = 0; j < 2; j++) {
+//                카테고리가 현재 선택한 종류와 맞을 경우
+                if (food[i].category[j] == cate && food[i].hot == hot && food[i].howMuch <= price) {
+//                    ArrayList에 추가
+                    nowFood.add(food[i]);
+                }
+            }
+        }
+        return nowFood;
     }
 
     void setFood() {
