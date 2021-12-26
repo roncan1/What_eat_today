@@ -8,10 +8,8 @@ public class FoodManager {
 
 
     public FoodManager() {
-        setFood();
 
     }
-
 
 
     Food choiceFood(ArrayList nowFood) {
@@ -22,18 +20,17 @@ public class FoodManager {
         return (Food) nowFood.get(resultNum);
     }
 
-//    음식 카테고리 분류
+    //    음식 카테고리 분류
     ArrayList divisionFood(int cate, int hot, int price) {
         ArrayList<Food> nowFood = new ArrayList<Food>();
 //        전체 음식배열
         for (int i = 0; i < food.length; i++) {
 //            카테고리 2개
-            for (int j = 0; j < 2; j++) {
-//                카테고리가 현재 선택한 종류와 맞을 경우
-                if (food[i].category[j] == cate && food[i].hot == hot && food[i].howMuch <= price) {
-//                    ArrayList에 추가
-                    nowFood.add(food[i]);
-                }
+            if (food[i].category1 == cate && food[i].hot <= hot && food[i].howMuch <= price) {
+                nowFood.add(food[i]);
+            }
+            if (food[i].category2 == cate && food[i].hot <= hot && food[i].howMuch <= price) {
+                nowFood.add(food[i]);
             }
         }
         return nowFood;

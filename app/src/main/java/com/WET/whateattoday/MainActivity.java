@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView btn_choice;
     ImageButton btn_rice, btn_noodle, btn_cook, btn_bread, btn_fbf, btn_snack, btn_coffee, btn_anything, btn_ko, btn_ja, btn_ch, btn_we;
-    static FoodManager fm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,7 +120,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void init() {
-        fm = new FoodManager();
         btn_anything = (ImageButton) findViewById(R.id.btn_anything);
         btn_bread = (ImageButton) findViewById(R.id.btn_bread);
         btn_choice = (ImageView) findViewById(R.id.btn_choice);

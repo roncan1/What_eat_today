@@ -262,7 +262,7 @@
                     android:fontFamily="@font/bm_hanna"
                     android:text="문의 : jiminii4810@gmail.com"
                     android:textColor="#7A7A7A"
-                    android:textSize="10dp" />
+                    android:textSize="12dp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
