@@ -142,7 +142,7 @@
                     android:id="@+id/tv_spicy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="맵기 : 매원도 ok"
+                    android:text="맵기 : 안매운음식"
                     android:fontFamily="@font/hand_style"
                     android:textSize="30dp"
                     android:textColor="#3E3E3E"/>

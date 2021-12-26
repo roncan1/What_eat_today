@@ -18,14 +18,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         init();
         selectCategory();
+        selectAnything();
+        selectChoice();
     }
 
     void selectAnything() {
-
+        btn_anything.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 
     void selectChoice() {
-
+        btn_choice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ChoiceActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     void selectCategory() {
