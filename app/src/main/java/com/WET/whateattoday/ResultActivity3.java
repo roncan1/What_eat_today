@@ -30,8 +30,8 @@ public class ResultActivity3 extends AppCompatActivity {
             setResult();
             home();
         } catch (Exception e) {
-            Toast.makeText(ResultActivity3.this, "조건에 해당하는 음식이 없습니다.", Toast.LENGTH_LONG);
             finish();
+            Toast.makeText(ResultActivity3.this, "조건에 해당하는 음식이 없습니다.", Toast.LENGTH_LONG);
         }
     }
 
