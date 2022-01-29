@@ -114,7 +114,7 @@ public class ResultActivity extends AppCompatActivity {
 
     void setFood() {
         food[0] = new Food("비빔밥", 0, 4, 1, 2, R.drawable.bibimbap);
-        food[1] = new Food("김치볶음밥", 0, 4, 1, 2, R.drawable.ic_launcher_foreground);
+        food[1] = new Food("김치볶음밥", 0, 4, 1, 2, R.drawable.gimchibokkumbob);
         food[2] = new Food("국밥", 0, 4, 1, 1, R.drawable.gukbap);
         food[3] = new Food("죽류", 0, 4, 1, 1, R.drawable.jukryu);
         food[4] = new Food("설렁탕", 0, 4, 1, 1, R.drawable.sulrungtang);
@@ -127,33 +127,33 @@ public class ResultActivity extends AppCompatActivity {
         food[10] = new Food("초빕", 0, 5, 2, 1, R.drawable.chobap);
         food[11] = new Food("규동", 0, 5, 1, 1, R.drawable.gyudong);
         food[12] = new Food("알밥", 0, 5, 1, 1, R.drawable.albap);
-        food[13] = new Food("오야코동", 0, 5, 1, 1, R.drawable.ic_launcher_foreground);
-        food[14] = new Food("오므라이스", 0, 5, 1, 1, R.drawable.ic_launcher_foreground);
-        food[15] = new Food("사케동", 0, 5, 2, 1, R.drawable.ic_launcher_foreground);
+        food[13] = new Food("오야코동", 0, 5, 1, 1, R.drawable.oyakodong);
+        food[14] = new Food("오므라이스", 0, 5, 1, 1, R.drawable.omurice);
+        food[15] = new Food("사케동", 0, 5, 2, 1, R.drawable.sakedong);
         food[16] = new Food("장어덮밥", 0, 5, 2, 1, R.drawable.jangeodeopbap);
-        food[17] = new Food("텐동", 0, 5, 1, 1, R.drawable.ic_launcher_foreground);
+        food[17] = new Food("텐동", 0, 5, 1, 1, R.drawable.tandong);
         food[18] = new Food("가츠동", 0, 5, 1, 1, R.drawable.gacheudong);
-        food[19] = new Food("하이라이스", 0, 5, 1, 1, R.drawable.ic_launcher_foreground);
+        food[19] = new Food("하이라이스", 0, 5, 1, 1, R.drawable.omurice);
 
         food[20] = new Food("중식볶음밥", 0, 6, 1, 1, R.drawable.jungsikbokkeumbap);
         food[21] = new Food("짜장밥", 0, 6, 1, 1, R.drawable.jjajangbap);
-        food[22] = new Food("중화비빔밥", 0, 6, 1, 2, R.drawable.ic_launcher_foreground);
-        food[23] = new Food("잡채밥", 0, 6, 1, 1, R.drawable.ic_launcher_foreground);
-        food[24] = new Food("짬뽕밥", 0, 6, 1, 1, R.drawable.ic_launcher_foreground);
+        food[22] = new Food("중화비빔밥", 0, 6, 1, 2, R.drawable.junghwabibimbob);
+        food[23] = new Food("잡채밥", 0, 6, 1, 1, R.drawable.jobchaebob);
+        food[24] = new Food("짬뽕밥", 0, 6, 1, 1, R.drawable.jjambbongbob);
 
-        food[25] = new Food("리조또", 0, 7, 1, 1, R.drawable.ic_launcher_foreground);
+        food[25] = new Food("리조또", 0, 7, 1, 1, R.drawable.rijotto);
 
         food[26] = new Food("떡국", 2, 4, 1, 1, R.drawable.tteokguk);
         food[27] = new Food("떡볶이", 2, 4, 3, 2, R.drawable.tteokbokki);
         food[28] = new Food("수제비", 2, 4, 1, 1, R.drawable.sujevi);
         food[29] = new Food("라볶이", 2, 4, 1, 2, R.drawable.rabokki);
 
-        food[30] = new Food("꽃빵", 2, 6, 1, 1, R.drawable.ic_launcher_foreground);
+        food[30] = new Food("꽃빵", 2, 6, 1, 1, R.drawable.ggotbbang);
 
         food[31] = new Food("햄버거", 2, 7, 1, 1, R.drawable.haembeogeo);
         food[32] = new Food("토스트", 2, 7, 0, 1, R.drawable.toseuteu);
-        food[33] = new Food("뇨끼", 2, 7, 1, 2, R.drawable.ic_launcher_foreground);
-        food[34] = new Food("핫도그", 2, 7, 0, 1, R.drawable.ic_launcher_foreground);
+        food[33] = new Food("뇨끼", 2, 7, 1, 2, R.drawable.nyokki);
+        food[34] = new Food("핫도그", 2, 7, 0, 1, R.drawable.hotdog);
         food[35] = new Food("피자", 2, 7, 4, 1, R.drawable.pija);
         food[36] = new Food("샌드위치", 2, 7, 1, 1, R.drawable.saendeuwichi);
         food[37] = new Food("시리얼", 2, 7, 0, 1, R.drawable.sirieol);
@@ -161,9 +161,9 @@ public class ResultActivity extends AppCompatActivity {
 
         food[39] = new Food("쫄면", 1, 4, 1, 2, R.drawable.jjolmyeon);
         food[40] = new Food("라면", 1, 4, 0, 2, R.drawable.ramyeon);
-        food[41] = new Food("잡채", 1, 4, 1, 1, R.drawable.ic_launcher_foreground);
+        food[41] = new Food("잡채", 1, 4, 1, 1, R.drawable.jobchae);
         food[42] = new Food("잔치국수", 1, 4, 1, 1, R.drawable.janchiguksu);
-        food[43] = new Food("골뱅이소면", 1, 4, 2, 2, R.drawable.ic_launcher_foreground);
+        food[43] = new Food("골뱅이소면", 1, 4, 2, 2, R.drawable.golbangiisomyeon);
         food[44] = new Food("물냉면", 1, 4, 1, 1, R.drawable.mulnaengmyeon);
         food[45] = new Food("비빔냉면", 1, 4, 1, 2, R.drawable.bibimnaengmyeon);
         food[46] = new Food("칼국수", 1, 4, 1, 1, R.drawable.kalguksu);
@@ -173,21 +173,21 @@ public class ResultActivity extends AppCompatActivity {
         food[49] = new Food("냉소바", 1, 5, 1, 1, R.drawable.naengsoba);
         food[50] = new Food("우동", 1, 5, 1, 1, R.drawable.udong);
         food[51] = new Food("온소바", 1, 5, 1, 1, R.drawable.onsoba);
-        food[52] = new Food("쇼유라멘", 1, 5, 1, 1, R.drawable.ic_launcher_foreground);
-        food[53] = new Food("미소라멘", 1, 5, 1, 1, R.drawable.ic_launcher_foreground);
-        food[54] = new Food("돈코츠라멘", 1, 5, 1, 1, R.drawable.ic_launcher_foreground);
-        food[55] = new Food("야끼소바", 1, 5, 1, 1, R.drawable.ic_launcher_foreground);
+        food[52] = new Food("쇼유라멘", 1, 5, 1, 1, R.drawable.ramen1);
+        food[53] = new Food("미소라멘", 1, 5, 1, 1, R.drawable.ramen1);
+        food[54] = new Food("돈코츠라멘", 1, 5, 1, 1, R.drawable.ramen2);
+        food[55] = new Food("야끼소바", 1, 5, 1, 1, R.drawable.ramen2);
         food[56] = new Food("볶음우동", 1, 5, 1, 1, R.drawable.bokkeumudong);
-        food[57] = new Food("시오라멘", 1, 5, 1, 1, R.drawable.ic_launcher_foreground);
+        food[57] = new Food("시오라멘", 1, 5, 1, 1, R.drawable.ramen1);
 
         food[58] = new Food("짬뽕", 1, 6, 1, 2, R.drawable.jjamppong);
         food[59] = new Food("탄탄면", 1, 6, 1, 2, R.drawable.tantanmyeon);
         food[60] = new Food("쟁반짜장", 1, 6, 2, 2, R.drawable.jaengbanjjajang);
-        food[61] = new Food("중식우동", 1, 6, 1, 1, R.drawable.ic_launcher_foreground);
+        food[61] = new Food("중식우동", 1, 6, 1, 1, R.drawable.jungsikudong);
         food[62] = new Food("짜장면", 1, 6, 1, 1, R.drawable.jjajangmyeon);
-        food[63] = new Food("울면", 1, 6, 1, 1, R.drawable.ic_launcher_foreground);
-        food[64] = new Food("간짜장", 1, 6, 1, 1, R.drawable.ic_launcher_foreground);
-        food[65] = new Food("중식냉면", 1, 6, 1, 2, R.drawable.ic_launcher_foreground);
+        food[63] = new Food("울면", 1, 6, 1, 1, R.drawable.ulmyeon);
+        food[64] = new Food("간짜장", 1, 6, 1, 1, R.drawable.ganjjajang);
+        food[65] = new Food("중식냉면", 1, 6, 1, 2, R.drawable.jungsiknangmyeon);
 
         food[66] = new Food("토마토파스타", 1, 7, 1, 1, R.drawable.tomatopaseuta);
         food[67] = new Food("오일파스타", 1, 7, 1, 1, R.drawable.oil_paseuta);
@@ -223,9 +223,9 @@ public class ResultActivity extends AppCompatActivity {
 
         food[96] = new Food("마라탕", 3, 6, 3, 2, R.drawable.maratang);
         food[97] = new Food("깐쇼새우", 3, 6, 3, 2, R.drawable.kkansyosaeu);
-        food[98] = new Food("꿔바로우", 3, 6, 3, 1, R.drawable.ic_launcher_foreground);
+        food[98] = new Food("꿔바로우", 3, 6, 3, 1, R.drawable.gguabarow);
         food[99] = new Food("마파두부", 3, 6, 1, 2, R.drawable.mapadubu);
-        food[100] = new Food("팔보채", 3, 6, 3, 1, R.drawable.ic_launcher_foreground);
+        food[100] = new Food("팔보채", 3, 6, 3, 1, R.drawable.palbochae);
         food[101] = new Food("훠궈", 3, 6, 4, 2, R.drawable.hwogwo);
         food[102] = new Food("탕수육", 3, 6, 3, 1, R.drawable.tangsuyuk);
         food[103] = new Food("양꼬치", 3, 6, 4, 1, R.drawable.yangkkochi);
@@ -233,21 +233,21 @@ public class ResultActivity extends AppCompatActivity {
         food[105] = new Food("만두", 3, 6, 3, 1, R.drawable.mandu);
 
         food[106] = new Food("경양식 돈까스", 3, 7, 1, 1, R.drawable.gyeongyangsik_donkkaseu);
-        food[107] = new Food("라자냐", 3, 7, 1, 1, R.drawable.ic_launcher_foreground);
+        food[107] = new Food("라자냐", 3, 7, 1, 1, R.drawable.lajanya);
         food[108] = new Food("바베큐", 3, 7, 4, 1, R.drawable.babikyu);
-        food[109] = new Food("오믈렛", 3, 7, 1, 1, R.drawable.ic_launcher_foreground);
+        food[109] = new Food("오믈렛", 3, 7, 1, 1, R.drawable.omulet);
         food[110] = new Food("스테이크", 3, 7, 4, 1, R.drawable.seuteikeu);
-        food[111] = new Food("그라탕", 3, 7, 2, 1, R.drawable.ic_launcher_foreground);
+        food[111] = new Food("그라탕", 3, 7, 2, 1, R.drawable.gratang);
         food[112] = new Food("샐러드", 3, 7, 1, 1, R.drawable.saelleodeu);
 
-        food[113] = new Food("타코야끼", 8, 12, 0, 1, R.drawable.ic_launcher_foreground);
+        food[113] = new Food("타코야끼", 8, 12, 0, 1, R.drawable.tacoyaggi);
         food[114] = new Food("과자", 8, 12, 0, 1, R.drawable.gwaja);
         food[115] = new Food("빵", 8, 12, 0, 1, R.drawable.ppang);
         food[116] = new Food("건어물", 8, 12, 0, 1, R.drawable.geoneomul);
-        food[117] = new Food("젤리", 8, 12, 0, 1, R.drawable.ic_launcher_foreground);
+        food[117] = new Food("젤리", 8, 12, 0, 1, R.drawable.jelly);
         food[118] = new Food("케이크", 8, 12, 2, 1, R.drawable.keikeu);
-        food[119] = new Food("푸딩", 8, 12, 0, 1, R.drawable.ic_launcher_foreground);
-        food[120] = new Food("육포", 8, 12, 1, 1, R.drawable.ic_launcher_foreground);
+        food[119] = new Food("푸딩", 8, 12, 0, 1, R.drawable.puding);
+        food[120] = new Food("육포", 8, 12, 1, 1, R.drawable.yukpo);
         food[121] = new Food("붕어빵", 8, 12, 0, 1, R.drawable.bungeoppang);
         food[122] = new Food("마카롱", 8, 12, 1, 1, R.drawable.makarong);
         food[123] = new Food("와플", 8, 12, 1, 1, R.drawable.wapeul);
@@ -263,7 +263,7 @@ public class ResultActivity extends AppCompatActivity {
         food[133] = new Food("삶은계란", 8, 12, 0, 1, R.drawable.salmeungyeran);
         food[134] = new Food("도너츠", 8, 12, 0, 1, R.drawable.doneocheu);
         food[135] = new Food("찐빵", 8, 12, 0, 1, R.drawable.jjinppang);
-        food[136] = new Food("꽈베기", 8, 12, 0, 1, R.drawable.ic_launcher_foreground);
+        food[136] = new Food("꽈베기", 8, 12, 0, 1, R.drawable.ggwabaegi);
 
         food[137] = new Food("아메리카노", 9, 12, 1, 1, R.drawable.amerikano);
         food[138] = new Food("바닐라라떼", 9, 12, 1, 1, R.drawable.banillaratte);
@@ -293,7 +293,7 @@ public class ResultActivity extends AppCompatActivity {
         food[161] = new Food("김밥", 10, 12, 0, 1, R.drawable.gimbap);
         food[162] = new Food("어묵", 10, 12, 0, 1, R.drawable.odeng);
         food[163] = new Food("쫄면", 10, 12, 1, 2, R.drawable.jjolmyeon);
-        food[164] = new Food("핫도그", 10, 12, 0, 1, R.drawable.ic_launcher_foreground);
+        food[164] = new Food("핫도그", 10, 12, 0, 1, R.drawable.hotdog);
         food[165] = new Food("짜장떡볶이", 10, 12, 0, 1, R.drawable.jjajangtteokbokki);
         food[166] = new Food("잔치국수", 10, 12, 1, 1, R.drawable.janchiguksu);
         food[167] = new Food("떡볶이", 10, 12, 0, 2, R.drawable.tteokbokki);
@@ -306,9 +306,9 @@ public class ResultActivity extends AppCompatActivity {
         food[174] = new Food("라볶이", 10, 12, 0, 2, R.drawable.rabokki);
         food[175] = new Food("순대", 10, 12, 0, 1, R.drawable.sundae);
         food[176] = new Food("라면", 10, 12, 0, 2, R.drawable.ramyeon);
-        food[177] = new Food("닭강정", 10, 12, 1, 2, R.drawable.ic_launcher_foreground);
+        food[177] = new Food("닭강정", 10, 12, 1, 2, R.drawable.chikin);
         food[178] = new Food("우동", 10, 12, 1, 1, R.drawable.udong);
-        food[179] = new Food("꽃빵", 10, 12, 0, 1, R.drawable.ic_launcher_foreground);
+        food[179] = new Food("꽃빵", 10, 12, 0, 1, R.drawable.ggotbbang);
 
         food[180] = new Food("치킨", 3, 7, 3, 1, R.drawable.chikin);
         food[181] = new Food("카레", 3, 11, 1, 1, R.drawable.kare);
