@@ -15,6 +15,7 @@ import java.util.Random;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ResultActivity extends AppCompatActivity {
+//    카테고리 선택
 
     Food[] food = new Food[183];
     CircleImageView iv_result;
@@ -36,7 +37,6 @@ public class ResultActivity extends AppCompatActivity {
             setResult();
             home();
         } catch (Exception e) {
-            Toast.makeText(ResultActivity.this, "조건에 해당하는 음식이 없습니다.", Toast.LENGTH_LONG);
             finish();
         }
     }

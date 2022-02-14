@@ -172,6 +172,17 @@
                 android:fontFamily="@font/bm_hanna"
                 android:layout_gravity="center"
                 android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*조건에 해당하는 음식이 없을 경우 처음화면으로 돌아갑니다."
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:fontFamily="@font/bm_hanna"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"/>
         </FrameLayout>
         
         

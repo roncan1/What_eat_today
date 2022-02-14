@@ -20,25 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="63dp" />
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="63dp">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/btn_choice_background" />
-
-                <ImageView
-                    android:id="@+id/btn_choice"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="2dp"
-                    android:layout_weight="1"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/btn_choice" />
-            </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"

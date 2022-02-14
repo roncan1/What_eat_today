@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         init();
         selectCategory();
         selectAnything();
-        selectChoice();
     }
 
     void selectAnything() {
@@ -27,16 +26,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                startActivity(intent);
-            }
-        });
-    }
-
-    void selectChoice() {
-        btn_choice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ChoiceActivity.class);
                 startActivity(intent);
             }
         });
@@ -136,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
     void init() {
         btn_anything = (ImageButton) findViewById(R.id.btn_anything);
         btn_bread = (ImageButton) findViewById(R.id.btn_bread);
-        btn_choice = (ImageView) findViewById(R.id.btn_choice);
         btn_coffee = (ImageButton) findViewById(R.id.btn_coffee);
         btn_cook = (ImageButton) findViewById(R.id.btn_cook);
         btn_fbf = (ImageButton) findViewById(R.id.btn_fastfood);

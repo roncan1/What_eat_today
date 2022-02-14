@@ -15,6 +15,7 @@ import java.util.Random;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ResultActivity2 extends AppCompatActivity {
+//    랜덤으로 선택
 
     Food[] food = new Food[183];
     CircleImageView iv_result;
